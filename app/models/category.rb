@@ -1,4 +1,4 @@
 class Category < ApplicationRecord
-    # has_many Games
-    
+    has_many :games
+
 end
